@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Dec 12, 2023 at 06:14 AM
+-- Generation Time: Dec 19, 2023 at 05:23 PM
 -- Server version: 10.4.28-MariaDB
 -- PHP Version: 8.0.28
 
@@ -94,7 +94,7 @@ CREATE TABLE `orders` (
 --
 
 INSERT INTO `orders` (`id`, `user_id`, `name`, `number`, `email`, `method`, `address`, `total_products`, `total_price`, `placed_on`, `payment_status`) VALUES
-(19, 18, '', '', '', 'Cash on delivery', ',  - ', ', Cheesecake (1) ', 25000, '04-Dec-2023', 'pending'),
+(19, 18, '', '', '', 'Cash on delivery', ',  - ', ', Cheesecake (1) ', 25000, '04-Dec-2023', 'completed'),
 (20, 16, 'Muhammad Avat', '088980005191', 'test@gmail.com', 'Gojek', 'Perum GWI no.159, Jl. Kokosan - 55194', ', Cheesecake (1) ', 25000, '12-Dec-2023', 'pending');
 
 -- --------------------------------------------------------
@@ -231,7 +231,7 @@ ALTER TABLE `orders`
 -- AUTO_INCREMENT for table `products`
 --
 ALTER TABLE `products`
-  MODIFY `id` int(100) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=23;
+  MODIFY `id` int(100) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=27;
 
 --
 -- AUTO_INCREMENT for table `users`
